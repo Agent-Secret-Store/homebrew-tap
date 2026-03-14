@@ -24,12 +24,12 @@ class Ass < Formula
   # ──────────────────────────────────────────────────────────────────────────
   on_macos do
     on_arm do
-      url "https://github.com/moltbot-den/agent-secret-store/releases/download/v#{version}/ass-macos-arm64"
+      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v#{version}/ass-macos-arm64"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
 
     on_intel do
-      url "https://github.com/moltbot-den/agent-secret-store/releases/download/v#{version}/ass-macos-x64"
+      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v#{version}/ass-macos-x64"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
   end
@@ -45,7 +45,7 @@ class Ass < Formula
     end
 
     on_intel do
-      url "https://github.com/moltbot-den/agent-secret-store/releases/download/v#{version}/ass-linux-x64"
+      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v#{version}/ass-linux-x64"
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
   end
