@@ -16,7 +16,7 @@ class Ass < Formula
 
     on_intel do
       url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v1.1.0/ass-macos-x64"
-      sha256 "7a5ba9ecaba3e577138e83e3234fd2d2f783acad7c4dbfcdae92bce13938ba8f"
+      sha256 "5093eb256f9bfce3ff427c3e5220acbb996df3aae90789c1d76de58649bf1cb6"
     end
   end
 
@@ -28,7 +28,7 @@ class Ass < Formula
 
     on_intel do
       url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v1.1.0/ass-linux-x64"
-      sha256 "b683ffc325b4cefd834980357ebc1b2732f6329b3f924d0dcc9a375950b69ff6"
+      sha256 "abeb137f7754aa88367e440782b82a7dad27589658f7425f0923d94e27909c92"
     end
   end
 
