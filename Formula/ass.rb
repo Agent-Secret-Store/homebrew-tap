@@ -5,18 +5,18 @@
 class Ass < Formula
   desc "CLI for Agent Secret Store — the secure vault built for AI agents"
   homepage "https://agentsecretstore.com"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v1.1.0/ass-macos-arm64"
-      sha256 "f9f9e810ad2c05e47c75127bd1cda8bf2d20bc4c200c9dd827a922934deb83cf"
+      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v1.1.1/ass-macos-arm64"
+      sha256 "ace886db0408205cfb35a8051be769515a95cb09a13e7b80834fce199634524c"
     end
 
     on_intel do
-      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v1.1.0/ass-macos-x64"
-      sha256 "5093eb256f9bfce3ff427c3e5220acbb996df3aae90789c1d76de58649bf1cb6"
+      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v1.1.1/ass-macos-x64"
+      sha256 "bbc6696ac7e84c0cf115ac3f9da068c7500e8b2aa34375fd691635ea624256e1"
     end
   end
 
@@ -27,8 +27,8 @@ class Ass < Formula
     end
 
     on_intel do
-      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v1.1.0/ass-linux-x64"
-      sha256 "abeb137f7754aa88367e440782b82a7dad27589658f7425f0923d94e27909c92"
+      url "https://github.com/Agent-Secret-Store/agent-secret-store/releases/download/v1.1.1/ass-linux-x64"
+      sha256 "dd456dc50b50b57272b5f0610542010ea4578d073a977a72ca44a9c025923e82"
     end
   end
 
